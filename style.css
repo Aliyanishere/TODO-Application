@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+}
+.main{
+    height: 100vh;
+    background-image: url("images/Screenshot\ 2021-07-27\ 023655.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-clip: border-box;
+    background-attachment: fixed;
+}
+.main h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 38px;
+    color: chocolate;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    text-decoration: underline double;
+    padding-top: 35px;
+    margin-left: 235px;
+}
+#todos{
+    background-color: rgb(243, 208, 161);
+    color: darkblue;
+    letter-spacing: 1.5px;
+    font-size: 16px;
+    font-weight: bold;
+    border-color: chocolate;
+    border-radius: 8px;
+    height: 15px;
+    padding: 8px;
+    margin-left: 110px;
+    margin-top: 50px;
+}
+.main button{
+    background-color: rgb(238, 238, 238);
+    padding: 8px;
+    height: 36px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    letter-spacing: 1.5px;
+    border-color: chocolate;
+    color: chocolate;
+    
+}
+#list li{
+    color: brown;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 90px;
+    margin-right: 6px;
+    margin-top: 29px;
+    margin-bottom: -15px;
+    text-decoration: underline;
+    width: fit-content;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 15px;
+    background-color: rgba(233, 233, 233, 0.9);
+}
+#list li button{
+    text-decoration: none;
+    font-size: 15px;
+    padding: 4px;
+    height: 29px;
+    margin-left: 8px;
+    margin-top: 3px;
+}
+.count{
+    text-align: center;
+    background-color: rgb(250, 232, 211);
+    padding: 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.count a{
+    color: brown;
+    text-decoration: none;
+    font-weight: bold;
+}
+.count a:hover{
+    text-decoration: underline;
+}
+.count a:focus{
+    text-decoration: underline;
+}
+@media only screen and (max-width: 1110px){
+    .main h1{
+        margin-left: 185px;
+    }
+    #list li{
+        margin-left: 36px;
+    }
+    #todos{
+        margin-left: 52px;
+    }
+}
+@media only screen and (max-width: 890px){
+    .main h1{
+        margin-left: 152px;
+    }
+    #list li{
+        margin-left: 14px;
+    }
+    #todos{
+        margin-left: 32px;
+    }
+}
+@media only screen and (max-width: 690px){
+    .main h1{
+        margin-left: 0;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-shadow: 2px 2px 2px khaki;
+    }
+    #list li{
+        margin-left: 24px;
+    }
+    #todos{
+        margin-left: 0;
+    }
+    .cent{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 460px){
+    #todos{
+        width: 240px;
+        break-after: always;
+        margin-left: 0;
+    }
+    .del{
+        margin-top: 5px;
+        width: 120px;
+        /* font-weight: bold; */
+    }
+    .add{
+        width: 120px;
+    }
+    /* #list li{ */
+        /* margin-left: 24px; */
+    /* } */
+    /* #todos{ */
+        /* margin-left: 0; */
+    /* } */
+}
